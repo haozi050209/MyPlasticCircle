@@ -89,7 +89,7 @@ public class TradeOrderListviewAdapter extends RecyclerView.Adapter<RecyclerView
             String html1 = "   合计 " + "<font color='#ff5550'>¥" + mList.get(position).getTotal_price() + "</font>";
             String html2 = "   (含运费 " + "<font color='#ff5550'>¥" + mList.get(position).getTransport() + "</font>" + ")";
             viewHolder.textView_title.setText("订单号：" + mList.get(position).getOrder_sn());
-            viewHolder.textView_num2.setText("共 " + mList.get(position).getTotal_num() + "吨");
+            viewHolder.textView_num2.setText("共 " + mList.get(position).getTotal_num() + "吨  ");
             viewHolder.textView_tprice.setText(Html.fromHtml(html1));
             //viewHolder.textView_feight.setText(Html.fromHtml(html2));
 
