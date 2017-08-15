@@ -9,9 +9,9 @@ package com.myplas.q.common.api;
 public class API {
     /*base url*/
     //测试
-    public final static String BASEURL = "https://ssl.myplas.com/qapi_3/";
+//    public final static String BASEURL = "https://ssl.myplas.com/qapi_3/";
     //    正式
-//    public final static String BASEURL= "https://api.myplas.com/qapi_3/";
+    public final static String BASEURL = "https://api.myplas.com/qapi_3/";
     //测试_快速登陆
 //    public final static String BASEURL_API = "https://ssl.myplas.com/";
     //正式_快速登陆

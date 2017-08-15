@@ -159,7 +159,7 @@ public class TradeOrderActivity extends BaseActivity implements OnClickListener,
                 } else {
                     mListView.setVisibility(View.GONE);
                     String msg = new JSONObject(object.toString()).getString("msg");
-                    mNoResultLayout.setNoResultData(R.drawable.icon_invoices_null, "", true);
+                    mNoResultLayout.setNoResultData(R.drawable.icon_invoices_null, "您当前没有订单记录", true);
                 }
             }
             if (type == 2) {

@@ -110,14 +110,14 @@ public class PersonInfoActivity extends BaseActivity implements View.OnClickList
                     Intent intent = new Intent(this, LookPersonInfoActivity.class);
                     intent.putExtra("tel", personinfo.getData().getMobile());
                     intent.putExtra("bean", p2);
-                    intent.putExtra("type", "查看Ta的供给信息");
+                    intent.putExtra("type", "供给信息");
                     startActivity(intent);
                     break;
                 case R.id.more_supply:
                     Intent intent1 = new Intent(this, LookPersonInfoActivity.class);
                     intent1.putExtra("tel", personinfo.getData().getMobile());
                     intent1.putExtra("bean", p1);
-                    intent1.putExtra("type", "查看Ta的求购信息");
+                    intent1.putExtra("type", "求购信息");
                     startActivity(intent1);
                     break;
                 case R.id.wd_zl_show:
